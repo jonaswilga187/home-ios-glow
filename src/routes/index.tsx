@@ -128,7 +128,7 @@ function ServiceRow({
 
       <div className="mt-5 flex items-end justify-between gap-4">
         <UptimeBar days={service.uptimeDays} />
-        <div className="flex items-center gap-2.5">
+        <div className="flex flex-col items-end gap-1.5">
           <p className="text-[15px] font-semibold tabular-nums text-card-foreground">
             {service.uptimePercent.toFixed(2)}&nbsp;%
           </p>
